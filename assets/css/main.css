@@ -1599,6 +1599,8 @@
 	}
 
 		h2.alt {
+			font-size: 3em;
+			font-weight: 700;
 			color: #888;
 		}
 
@@ -1707,14 +1709,14 @@
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
+			width: 100px;
+			height: 100px;
 			background: #f00;
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 100px;
+				height: 100px;
 			}
 
 		.image.fit {
@@ -2066,6 +2068,7 @@
 		}
 
 	#nav ul {
+		margin-top:  80px;
 		margin-bottom: 0;
 	}
 
@@ -2183,7 +2186,7 @@
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/sprout.jpg");
+				background-image: url("../../images/banner2.jpg");
 			}
 
 			#main > section.two {
