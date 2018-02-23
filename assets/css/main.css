@@ -2068,10 +2068,7 @@
 			top: 0;
 		}
 
-	#contact .container div {
-		text-align: left;
-		margin-left: 30%;
-	}
+
 
 	#nav ul {
 		margin-top:  150px;
@@ -2210,6 +2207,33 @@
 			#main > section.five {
 				background-color: #ecf1f1;
 			}
+
+/* Other section adjustments */
+#contact .container div {
+	text-align: left;
+	margin-left: 30%;
+}
+
+
+#aboutUs {
+	display: inline-block;
+	display: -moz-inline-box;
+	*display: inline; /* For IE7 */
+	vertical-align: top;
+
+}
+
+	#aboutUs img {
+		width: 40%;
+		height:auto;
+		float: left;
+	}
+
+	#aboutUs p {
+		margin:5px;
+	}
+
+
 
 /* Wide */
 
