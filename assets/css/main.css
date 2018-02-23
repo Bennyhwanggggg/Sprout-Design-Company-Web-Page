@@ -2218,7 +2218,6 @@
 #aboutUs {
 	display: inline-block;
 	display: -moz-inline-box;
-	*display: inline; /* For IE7 */
 	vertical-align: top;
 
 }
