@@ -2044,7 +2044,7 @@
 		cursor: default;
 	}
 
-		#logo h1 {
+/*		#logo h1 {
 			position: relative;
 			color: #fff;
 			font-weight: 600;
@@ -2059,7 +2059,7 @@
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
-		}
+		}*/
 
 		#logo .image {
 			width: 80%;
