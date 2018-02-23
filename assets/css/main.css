@@ -2068,6 +2068,11 @@
 			top: 0;
 		}
 
+	#contact .container div {
+		text-align: left;
+		margin-left: 30%;
+	}
+
 	#nav ul {
 		margin-top:  150px;
 		margin-bottom: 0;
@@ -2108,7 +2113,7 @@
 			}
 
 				#nav ul li a.active span:before {
-					color: #e27689;
+					color: rgb(137, 201, 155);
 				}
 
 /* Footer */
@@ -2200,6 +2205,10 @@
 
 			#main > section.four {
 				background-color: #e8edec;
+			}
+
+			#main > section.five {
+				background-color: #ecf1f1;
 			}
 
 /* Wide */
