@@ -223,7 +223,7 @@
 										<textarea name="message" placeholder="e.g 兩星期 2 weeks"></textarea>
 									</div> -->
 									<div class="12u$">
-										<input type="submit" value="Send Message" />
+										<a href="#order"><input type="submit" value="Send Message" /></a>
 									</div>
 								</div>
 							</form>
@@ -256,6 +256,11 @@
 
 			</div>
 
+		<!-- Thank you message -->
+			<div style="display: none;" id="thankyou">
+				<h2>THank you for contacting us</h2>
+			</div>
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -264,8 +269,8 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-			<script data-cfasync="false" type="text/javascript"
-src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+			<script src="assets/js/form-submission-handler.js"></script>
+			<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 
 	</body>
 </html>
