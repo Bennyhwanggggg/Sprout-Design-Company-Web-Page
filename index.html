@@ -9,6 +9,8 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/lightbox.min.css">
+		<script type="text/javascript" src="assets/js/lightbox-plus-jquery.min.js"></script>
 	</head>
 	<body>
 
@@ -95,13 +97,13 @@
 							<div class="row">
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/work/work1.JPG" alt="" /></a>
+										<a href="images/work/work1.JPG" data-lightbox="main-gallery" class="image fit lightbox-trigger"><img src="images/work/work1.JPG" alt="" /></a>
 										<header>
 											<h3>品牌CIS設計</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/work/work2.JPG" alt="" /></a>
+										<a href="images/work/work2.JPG" data-lightbox="main-gallery" class="image fit lightbox-trigger"><img src="images/work/work2.JPG" alt="" /></a>
 										<header>
 											<h3>名片設計</h3>
 										</header>
@@ -109,13 +111,13 @@
 								</div>
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/work/work3.JPG" alt="" /></a>
+										<a href="images/work/work3.JPG" data-lightbox="main-gallery" class="image fit lightbox-trigger"><img src="images/work/work3.JPG" alt="" /></a>
 										<header>
 											<h3>產品形象設計</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/work/work4.JPG" alt="" /></a>
+										<a href="images/work/work4.JPG" data-lightbox="main-gallery" class="image fit lightbox-trigger"><img src="images/work/work4.JPG" alt="" /></a>
 										<header>
 											<h3>產品包裝設計</h3>
 										</header>
@@ -123,13 +125,13 @@
 								</div>
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/work/work5.JPG" alt="" /></a>
+										<a href="images/work/work5.JPG" data-lightbox="main-gallery" class="image fit lightbox-trigger"><img src="images/work/work5.JPG" alt="" /></a>
 										<header>
 											<h3>角色與貼圖設計</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/work/work6.JPG" alt="" /></a>
+										<a href="images/work/work6.JPG" data-lightbox="main-gallery" class="image fit lightbox-trigger"><img src="images/work/work6.JPG" alt="" /></a>
 										<header>
 											<h3>海報與傳單設計</h3>
 										</header>
@@ -137,7 +139,7 @@
 								</div>
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/work/work7.JPG" alt="" /></a>
+										<a href="images/work/work7.JPG" data-lightbox="main-gallery" class="image fit lightbox-trigger"><img src="images/work/work7.JPG" alt="" /></a>
 										<header>
 											<h3>大圖輸出</h3>
 										</header>
@@ -145,7 +147,7 @@
 								</div>
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/work/work8.JPG" alt="" /></a>
+										<a href="images/work/work8.JPG" data-lightbox="main-gallery" class="image fit lightbox-trigger"><img src="images/work/work8.JPG" alt="" /></a>
 										<header>
 											<h3>戶外指南標系統設計</h3>
 										</header>
@@ -263,6 +265,11 @@
 		
 
 		<!-- Scripts -->
+			<script>
+			    lightbox.option({
+			      'albumLabel': ""
+			    })
+			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollzer.min.js"></script>
