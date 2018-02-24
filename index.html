@@ -205,10 +205,19 @@
 
 							<form method="post" action="#">
 								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="12u$">
-										<textarea name="message" placeholder="Message"></textarea>
+									<div class="6u 12u$(mobile) questions">姓名/Your name<input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u$ 12u$(mobile) questions">聯絡方式/Contact details<input type="text" name="email" placeholder="e.g Email/Phone number/Line ID" /></div>
+									<div class="12u$ questions">
+										您需要設計的類型/Type of design work you require
+										<textarea name="message" placeholder="e.g Business card 名片設計, Package Design 產品包裝設計"></textarea>
+									</div>
+									<div class="12u$ questions">
+										需求詳細說明/Specfic Requirements
+										<textarea name="message" placeholder="e.g Style of the design 風格走向,  特別需求 注意事項"></textarea>
+									</div>
+									<div class="12u$ questions">
+										作品需要完成在何時/Expected time frame
+										<textarea name="message" placeholder="e.g 兩星期 2 weeks"></textarea>
 									</div>
 									<div class="12u$">
 										<input type="submit" value="Send Message" />

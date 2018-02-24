@@ -1829,8 +1829,12 @@
 		line-height: 1.25em;
 	}
 
+	.questions {
+		text-align: left;
+	}
+
 	form textarea {
-		min-height: 14em;
+		min-height: 6em;
 	}
 
 	form .formerize-placeholder {
