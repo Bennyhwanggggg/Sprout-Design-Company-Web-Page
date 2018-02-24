@@ -8,7 +8,6 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<link rel="stylesheet" href="assets/css/overlay.css" />
 		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 	</head>
 	<body>
@@ -204,9 +203,14 @@
 								<p>任何服務需求，歡迎來信：sproutdesigntw@gmail.com 或填寫下列訂單</p>
 							</div>
 
-							<form id="request-form" method="post" action="https://script.google.com/macros/s/AKfycbw6pp9d9d13j-jBEc8z746nqM844T69HkgeRUoBKJDfOjHFJhGn/exec">
+							<!-- Thank you message -->
+							<div style="display: none;" id="thankyou_message">
+								<h2>謝謝您聯絡我們 Thank you for contacting us</h2>
+							</div>
+
+							<form id="gform" method="post" action="https://script.google.com/macros/s/AKfycbw6pp9d9d13j-jBEc8z746nqM844T69HkgeRUoBKJDfOjHFJhGn/exec">
 								<div class="row">
-									<div class="6u 12u$(mobile) questions">姓名/Your name<input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u 12u$(mobile) questions">姓名/Your name<input type="text" name="姓名/Name" placeholder="Name" /></div>
 									<div class="6u$ 12u$(mobile) questions">聯絡方式/Contact details<input type="text" name="聯絡方式/Contact details" placeholder="e.g Email/Phone number/Line ID" /></div>
 									<div class="6u 12u$(mobile) questions">作品需要完成在何時/Expected time frame<input type="text" name="作品需要完成在何時/Expected time frame" placeholder="e.g 兩星期 2 weeks" /></div>
 									<div class="6u 12u$(mobile) questions">預算/Budget<input type="text" name="預算/Budget" placeholder="e.g NTD $10,000" /></div>
@@ -256,10 +260,7 @@
 
 			</div>
 
-		<!-- Thank you message -->
-			<div style="display: none;" id="thankyou">
-				<h2>THank you for contacting us</h2>
-			</div>
+		
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -270,7 +271,7 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/form-submission-handler.js"></script>
-			<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+<!-- 			<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script> -->
 
 	</body>
 </html>

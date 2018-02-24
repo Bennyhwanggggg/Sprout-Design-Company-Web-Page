@@ -118,26 +118,3 @@
 
 })(jQuery);
 
-// // Ajax submit form
-// $(function()) {
-// 	// get form
-// 	var form = $('request-form');
-
-// 	var formMesages = $('#questions');
-// }
-
-// // Set up an event listener for the contact form.
-// $(form).submit(function(event) {
-//     // Stop the browser from submitting the form.
-//     event.preventDefault();
-
-//     // TODO
-//     var formData = $(form).serialize();
-
-//     // Submit the form using AJAX.
-// 	$.ajax({
-// 	    type: 'POST',
-// 	    url: $(form).attr('action'),
-// 	    data: formData
-// 	})
-// });
