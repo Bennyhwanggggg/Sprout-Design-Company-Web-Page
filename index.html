@@ -44,7 +44,7 @@
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home 首頁</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio 作品集</span></a></li>
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Us 關於我們</span></a></li>
-								<li><a href="#order" id="order-link" class="skel-layers-ignoreHref"><span class="icon fa-sticky-note">Make Requests 下訂單</span></a></li>
+								<li><a href="#order" id="order-link" class="skel-layers-ignoreHref"><span class="icon fa-sticky-note">Submit Requests 下訂單</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact 聯絡我們</span></a></li>
 							</ul>
 						</nav>
@@ -191,34 +191,37 @@
 						<div class="container">
 
 							<header>
-								<h2>Make Requests 下訂單</h2>
+								<h2>Submit Requests 下訂單</h2>
 							</header>
+							<div id="requestFormText">
+								<p>品牌宗旨|<br>
+	 							讓萌芽設計細心栽植您的需求，從設計中萌芽。</p>
+								<p>服務項目|<br>
+								主要以平面設計、美術編輯為主。<br>
+	 							如：品牌設計、名片設計、DM傳單設計、簡報設計<!-- <br> -->
+								包裝設計、資訊設計、海報設計、貼圖設計、姓名貼<!-- <br> -->
+	 							招牌設計、美宣品設計、傳單設計、信封請帖設計等。</p>
+								<p>任何服務需求，歡迎來信：sproutdesigntw@gmail.com 或填寫下列訂單</p>
+							</div>
 
-							<p>品牌宗旨|<br>
- 							讓萌芽設計細心栽植您的需求，從設計中萌芽。</p>
-							<p>服務項目|<br>
-							主要以平面設計、美術編輯為主。<br>
- 							如：品牌設計、名片設計、DM傳單設計、簡報設計<br>
-							包裝設計、資訊設計、海報設計、貼圖設計、姓名貼<br>
- 							招牌設計、美宣品設計、傳單設計、信封請帖設計等。</p>
-							<p>任何服務需求，歡迎來信：sproutdesigntw@gmail.com 或填寫下列訂單</p>
-
-							<form method="post" action="#">
+							<form id="request-form" method="post" action="https://script.google.com/macros/s/AKfycbw6pp9d9d13j-jBEc8z746nqM844T69HkgeRUoBKJDfOjHFJhGn/exec">
 								<div class="row">
 									<div class="6u 12u$(mobile) questions">姓名/Your name<input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile) questions">聯絡方式/Contact details<input type="text" name="email" placeholder="e.g Email/Phone number/Line ID" /></div>
+									<div class="6u$ 12u$(mobile) questions">聯絡方式/Contact details<input type="text" name="聯絡方式/Contact details" placeholder="e.g Email/Phone number/Line ID" /></div>
+									<div class="6u 12u$(mobile) questions">作品需要完成在何時/Expected time frame<input type="text" name="作品需要完成在何時/Expected time frame" placeholder="e.g 兩星期 2 weeks" /></div>
+									<div class="6u 12u$(mobile) questions">預算/Budget<input type="text" name="預算/Budget" placeholder="e.g NTD $10,000" /></div>
 									<div class="12u$ questions">
 										您需要設計的類型/Type of design work you require
-										<textarea name="message" placeholder="e.g Business card 名片設計, Package Design 產品包裝設計"></textarea>
+										<textarea name="您需要設計的類型/Type of design work" placeholder="e.g Business card 名片設計, Package Design 產品包裝設計"></textarea>
 									</div>
 									<div class="12u$ questions">
 										需求詳細說明/Specfic Requirements
-										<textarea name="message" placeholder="e.g Style of the design 風格走向,  特別需求 注意事項"></textarea>
+										<textarea name="需求詳細說明/Specfic Requirements" placeholder="e.g Style of the design 風格走向,  特別需求 注意事項"></textarea>
 									</div>
-									<div class="12u$ questions">
+<!-- 									<div class="12u$ questions">
 										作品需要完成在何時/Expected time frame
 										<textarea name="message" placeholder="e.g 兩星期 2 weeks"></textarea>
-									</div>
+									</div> -->
 									<div class="12u$">
 										<input type="submit" value="Send Message" />
 									</div>
@@ -261,6 +264,8 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 
 	</body>
 </html>

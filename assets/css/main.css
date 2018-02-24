@@ -1716,6 +1716,7 @@
 			.image.avatar48 img {
 				width: 80%;
 				height: auto;
+				min-width: 122px;
 				margin-left: auto;
 			}
 
@@ -1833,28 +1834,38 @@
 		text-align: left;
 	}
 
+	#requestFormText {
+		text-align: left;
+		/*margin-left: 15%;*/
+	}
+
 	form textarea {
 		min-height: 6em;
 	}
 
 	form .formerize-placeholder {
 		color: #555 !important;
+		opacity: 0.5;
 	}
 
 	form ::-webkit-input-placeholder {
 		color: #555 !important;
+		opacity: 0.5;
 	}
 
 	form :-moz-placeholder {
 		color: #555 !important;
+		opacity: 0.5;
 	}
 
 	form ::-moz-placeholder {
 		color: #555 !important;
+		opacity: 0.5;
 	}
 
 	form :-ms-input-placeholder {
 		color: #555 !important;
+		opacity: 0.5;
 	}
 
 	form ::-moz-focus-inner {
@@ -2218,12 +2229,31 @@
 	margin-left: 30%;
 }
 
-/*#aboutUs p {
-	margin: 0;
-	padding: 0;
+#aboutUs div{
+	text-align: left;
 }
 
-#aboutUs li {
+#aboutUs p {
+	margin-bottom: 0;
+	margin-left: 25%;
+}
+
+#aboutUs ul {
+	margin-left: 25%;
+}
+
+#aboutUs img {
+	width: 50%;
+/*	min-width: 240px;*/
+	margin: 0 auto;
+	display: block;
+}
+
+#drawingImage {
+	min-width: 100px;
+}
+
+/*#aboutUs li {
 	line-height: 30px;
 }
 
@@ -2238,8 +2268,8 @@
 					width: 40%;
 					height:auto;
 					float: left;
-				}
-*/
+				}*/
+
 
 
 
@@ -2273,7 +2303,7 @@
 			}
 
 
-			#aboutUs p {
+/*			#aboutUs p {
 				margin: 0;
 				padding: 0;
 			}
@@ -2293,7 +2323,7 @@
 								width: 40%;
 								height:auto;
 								float: left;
-							}
+							}*/
 
 
 
@@ -2313,7 +2343,7 @@
 				padding: 5em 0;
 			}
 
-			#aboutUs p {
+/*			#aboutUs p {
 				margin: 0;
 				padding: 0;
 			}
@@ -2334,7 +2364,7 @@
 								height:auto;
 								float: left;
 							}
-
+*/
 	}
 
 /* Narrow */
@@ -2466,7 +2496,7 @@
 				overflow-y: auto;
 				position: fixed;
 				top: 0;
-				width: 20%;
+				min-width: 276.8px;
 				z-index: 10002;
 				width: 35%;
 				background: #222729 url("images/overlay.png");
