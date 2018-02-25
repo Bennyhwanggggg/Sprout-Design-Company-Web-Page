@@ -1831,11 +1831,6 @@
 		text-align: left;
 	}
 
-	#requestFormText {
-		text-align: left;
-		/*margin-left: 15%;*/
-	}
-
 	form textarea {
 		min-height: 6em;
 	}
@@ -2056,23 +2051,6 @@
 		cursor: default;
 	}
 
-/*		#logo h1 {
-			position: relative;
-			color: #fff;
-			font-weight: 600;
-			font-size: 1em;
-			line-height: 1em;
-		}
-
-		#logo p {
-			position: relative;
-			display: block;
-			font-size: 0.6em;
-			color: rgba(255, 255, 255, 0.5);
-			line-height: 1.25em;
-			margin: 0.5em 0 0 0;
-		}*/
-
 		#logo .image {
 			width: 80%;
 			position: absolute;
@@ -2232,22 +2210,40 @@
 
 #aboutUs p {
 	margin-bottom: 0;
-	margin-left: 25%;
+	margin-left: 1%;
 }
 
 #aboutUs ul {
-	margin-left: 25%;
+	margin-left: 1%;
 }
 
 #aboutUs img {
-	width: 50%;
-/*	min-width: 240px;*/
+	width: 80%;
+	min-width: 100px;
 	margin: 0 auto;
-	display: block;
+	display: inline-block;
 }
 
-#drawingImage {
-	min-width: 100px;
+#author {
+	display: block;
+	font-size: 3em;
+}
+#designer {
+	display: block;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+#qualifications {
+	display: inline-block;
+	float: right;
+	width: 50%
+}
+
+.drawingImage {
+	display: inline-block;
+	float: left;
+	width: 50%;
 }
 
 /* Wide */
@@ -2523,6 +2519,14 @@
 				transform: translateX(0);
 			}
 
+			#qualifications {
+				float: none;
+			}
+
+			.drawingImage {
+				float: none;
+			}
+
 		/* Footer */
 
 			#footer {
@@ -2594,6 +2598,14 @@
 				#main section.cover header {
 					padding: 0 1em;
 				}
+
+			#qualifications {
+				float: : none;
+			}
+
+			.drawingImage {
+				float: none
+			}
 
 		/* Footer */
 
