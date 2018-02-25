@@ -2521,10 +2521,12 @@
 
 			#qualifications {
 				float: none;
+				font-size: 0.7em;
 			}
 
 			.drawingImage {
 				float: none;
+				font-size: 0.7em;
 			}
 
 		/* Footer */
@@ -2601,10 +2603,12 @@
 
 			#qualifications {
 				float: : none;
+				font-size: 0.7em;
 			}
 
 			.drawingImage {
 				float: none
+				font-size: 0.7em;
 			}
 
 		/* Footer */
