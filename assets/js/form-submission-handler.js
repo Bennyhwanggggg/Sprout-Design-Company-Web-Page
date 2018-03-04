@@ -68,10 +68,20 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
   xhr.send(encoded);
 }
 
+function reset_submit(event){
+  event.preventDefault();
+  document.getElementById('gform').reset();
+  document.getElementById('gform').style.display = 'block'; // hide form
+  document.getElementById('thankyou_message').style.display = 'none';
+}
+
 function loaded() {
   console.log('contact form submission handler loaded successfully');
   // bind to the submit event of our form
   var form = document.getElementById('gform');
   form.addEventListener("submit", handleFormSubmit, false);
+  var resetForm = document.getElementById('thankyou_message');
+  resetForm.addEventListener("click", reset_submit, true);
 };
 document.addEventListener('DOMContentLoaded', loaded, false);
+
